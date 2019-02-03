@@ -1,0 +1,98 @@
+body {
+    background-color: #9db5ef;
+    font-family: Roboto, sans-serif;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.block {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    width: 300px;
+}
+
+.block_image {
+    width: 60px;
+}
+
+.big_text {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5ba1d3;
+    letter-spacing: 5px;
+}
+
+.small_text {
+    text-transform: capitalize;
+    color: #8d8d8d;
+}
+
+.text_price {
+    font-weight: 700;
+    color: #5ba1d3;
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+    left: -14px;
+}
+
+.mony {
+    position: absolute;
+    left: 35px;
+    font-size: 10px;
+}
+
+.month {
+    position: absolute;
+    font-size: 10px;
+    bottom: 1px;
+}
+
+@media (max-width: 575.98px) {
+
+    .block {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .block {
+        max-width: 50%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main {
+        flex-wrap: nowrap;
+    }
+
+}
